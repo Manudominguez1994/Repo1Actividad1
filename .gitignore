@@ -3,6 +3,15 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
 
+# !Añadimos a este archivo, todo lo que queramos que git ignore.
+# *Ignorar archivo de configuracion de nuestro proyecto 
+configuracion_local.sh
+# *Ignorar la carpeta de archivos privado
+archivos_privados
+# *Ignorar archivos de Photoshop  y Gimp
+*.psd
+*.xcf
+
 # User-specific files
 *.rsuser
 *.suo
